@@ -110,6 +110,7 @@
       'fc-header' : require('./components/header')
     },
     mounted () {
+    debugger
       this.emitChangeMonth(this.currentMonth);
     },
     data () {
